@@ -1,0 +1,32 @@
+html {
+  font-family: system-ui,
+    /* macOS 10.11-10.12 */ -apple-system, /* Windows 6+ */ Segoe UI,
+    /* Android 4+ */ Roboto, /* Ubuntu 10.10+ */ Ubuntu,
+    /* Gnome 3+ */ Cantarell, /* KDE Plasma 5+ */ Noto Sans,
+    /* fallback */ sans-serif, /* macOS emoji */ 'Apple Color Emoji',
+    /* Windows emoji */ 'Segoe UI Emoji', /* Windows emoji */ 'Segoe UI Symbol',
+    /* Linux emoji */ 'Noto Color Emoji'; /* 2 */
+}
+
+button {
+  border: none;
+  background: none;
+  color: inherit;
+  text-align: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none; /* use other visual indicator instead, like box shadow */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: hsla(200, 50%, 60%, 0.3);
+}
